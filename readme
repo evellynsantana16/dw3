@@ -1,177 +1,27 @@
-# 💻 Desenvolvimento Web 3 — FATEC Jahu
+# 💻 Desenvolvimento Web 3
 
-> Repositório destinado aos estudos, exercícios, atividades e projetos desenvolvidos durante a disciplina de **Desenvolvimento Web 3**.
+Repositório dos estudos, exercícios e projetos desenvolvidos durante a disciplina de **Desenvolvimento Web 3 (DW3)** na **FATEC Jahu**.
 
----
+### 📚 Conteúdos
 
-## 🎓 Sobre a disciplina
-
-O **Desenvolvimento Web 3 (DW3)** dá continuidade aos conhecimentos de desenvolvimento de software, aprofundando a construção de aplicações Web utilizando **C#**, **ASP.NET Core**, arquitetura **MVC**, bancos de dados relacionais e não relacionais e o uso de **frameworks**.
-
-Este repositório acompanha minha evolução durante a disciplina, reunindo os conteúdos estudados e suas aplicações práticas.
-
----
-
-## 📚 Conteúdos
-
-Durante a disciplina, serão abordados temas como:
-
-* ⚙️ *C#*
-* 🌐 **ASP.NET Core**
-* 🏗️ **Arquitetura MVC**
-* 🧩 **Frameworks**
-* 🗄️ **Banco de dados relacionais**
-* 🍃 **Banco de dados não relacionais (NoSQL)**
-* 🍃 **MongoDB**
-* 🔗 Integração entre aplicação e banco de dados
-* 🛠️ Desenvolvimento de aplicações Web
-* 📐 Organização e arquitetura de projetos
-
----
-
-## 🛠️ Tecnologias
-
-### Backend
-
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge\&logo=csharp\&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge\&logo=dotnet\&logoColor=white)
-
-### Banco de dados
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
-
-### Ferramentas
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge\&logo=visualstudio\&logoColor=white)
-
----
-
-## 🏗️ Arquitetura
-
-Um dos principais conceitos trabalhados na disciplina será a arquitetura **MVC (Model-View-Controller)**, utilizada para organizar a aplicação separando suas principais responsabilidades.
-
-```text
-          👤 Usuário
-              │
-              ▼
-        ┌─────────────┐
-        │    View     │
-        └──────┬──────┘
-               │
-               ▼
-        ┌─────────────┐
-        │ Controller  │
-        └──────┬──────┘
-               │
-               ▼
-        ┌─────────────┐
-        │    Model    │
-        └──────┬──────┘
-               │
-               ▼
-        ┌─────────────┐
-        │  Database   │
-        └─────────────┘
-```
-
-A utilização dessa estrutura permite desenvolver aplicações mais organizadas, facilitando a manutenção e evolução do sistema.
-
----
-
-## 🗄️ Bancos de dados
-
-Durante o semestre serão estudadas diferentes formas de armazenamento de dados.
-
-### Relacionais
-
-Bancos que organizam os dados em estruturas como **tabelas, registros e relacionamentos**.
-
-Exemplos:
-
-* MySQL
-* SQL Server
-
-### Não relacionais
-
-Bancos **NoSQL**, que utilizam estruturas diferentes do modelo tradicional de tabelas.
-
-Um dos principais exemplos estudados será:
-
+* C#
+* ASP.NET Core
+* Arquitetura MVC
+* Frameworks
+* Bancos de dados relacionais
+* Bancos de dados não relacionais (NoSQL)
 * MongoDB
 
----
+### 🛠️ Tecnologias
 
-## 📁 Organização do repositório
+`C#` • `.NET` • `ASP.NET Core` • `MongoDB` • `SQL` • `Git`
 
-```text
-DW3/
-│
-├── 📂 aulas/
-│   ├── aula-01/
-│   ├── aula-02/
-│   └── ...
-│
-├── 📂 exercicios/
-│   ├── exercicio-01/
-│   ├── exercicio-02/
-│   └── ...
-│
-├── 📂 atividades/
-│
-├── 📂 projetos/
-│
-└── 📄 README.md
-```
+### 🎓 Curso
 
-A organização poderá ser alterada conforme os conteúdos e projetos desenvolvidos durante o semestre.
+**Desenvolvimento de Software Multiplataforma — FATEC Jahu**
+
+**3º semestre | 2026**
 
 ---
 
-## 🎯 Objetivos
-
-Durante o DW3, busco:
-
-* Aprofundar meus conhecimentos em **C#**;
-* Aprender a desenvolver aplicações com **ASP.NET Core**;
-* Entender melhor a arquitetura **MVC**;
-* Trabalhar com bancos de dados relacionais e NoSQL;
-* Aprender a utilizar **MongoDB**;
-* Compreender o funcionamento e a aplicação de frameworks;
-* Desenvolver aplicações Web mais estruturadas e profissionais;
-* Aplicar na prática os conceitos estudados em aula.
-
----
-
-## 📈 Minha evolução
-
-Este repositório será atualizado durante o semestre para registrar minha evolução na disciplina.
-
-A ideia não é mostrar apenas os projetos prontos, mas também documentar o processo de aprendizagem, os exercícios realizados e os conhecimentos adquiridos ao longo do caminho.
-
-> **Do código básico à construção de aplicações Web completas. 🚀**
-
----
-
-## 🎓 Formação
-
-**FATEC Jahu — Faculdade de Tecnologia de Jahu**
-
-**Curso:** Desenvolvimento de Software Multiplataforma
-**Disciplina:** Desenvolvimento Web 3
-**Semestre:** 3º semestre
-
----
-
-## 👩‍💻 Autora
-
-**Evellyn Santana**
-
-Estudante de Desenvolvimento de Software Multiplataforma na **FATEC Jahu**.
-
----
-
-> 📌 *Repositório acadêmico criado para acompanhar minha jornada de aprendizado em Desenvolvimento Web 3.*
+📌 Repositório acadêmico em constante atualização.
